@@ -32,10 +32,3 @@ Is It Snappy? will display the number of frames and milliseconds between the two
 Quantifying response latency ends arguments! :)
 
 After writing this app, I walked around my house and measured everything I could think of.  Here are some interesting results:
-
-
-
-
-<footer>
-© 2017 <a href="https://chadaustin.me">Chad Austin</a>.  Thanks to <a href="https://twitter.com/danielrhammond">Daniel Hammond</a> and <a href="https://twitter.com/wkiefer">Will Kiefer</a> for their timely iOS help.
-</footer>
