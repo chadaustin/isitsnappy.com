@@ -32,7 +32,9 @@ Is It Snappy? will display the number of frames and milliseconds between the two
 Quantifying response latency ends arguments! :)
 
 <div class="download-badge">
+<a href="https://itunes.apple.com/us/app/is-it-snappy/id1219667593?ls=1&amp;mt=8">
 <img alt="Download on the App Store" src="/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />
+</a>
 </div>
 
 ---
