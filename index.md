@@ -15,9 +15,9 @@ What makes the situation worse is that some people are significantly more sensit
 
 Fortunately, we can quantify this!  The traditional technique is to use a high-speed camera to simultaneously record the input device and the screen.  Counting the number of frames between the input and the output gives an objective measure of input latency.
 
-Since the iPhone 6, the rear-facing camera can record at 240 frames per second.  4.2 ms of precision in our pockets!
+All iPhones since the iPhone 6 and the 9.7-inch iPad Pro have a rear-facing camera that can record at 240 frames per second.  Nearly four milliseconds of precision in our pockets!
 
-Is It Snappy? is an iOS app that lets you use this hardware to quantify latency.
+Is It Snappy? is an iOS app that makes it convenient to quantify latency with this hardware.
 
 Simply record a video of the input and output.
 
@@ -31,9 +31,11 @@ Is It Snappy? will display the number of frames and milliseconds between the two
 
 Quantifying response latency ends arguments! :)
 
-After writing this app, I walked around my house and measured everything I could think of.
+After writing this app, I walked around my house and measured everything I could think of.  Here are some interesting results:
+
+
 
 
 <footer>
-aoeu
+© 2017 Chad Austin.  Thanks to <a href="https://twitter.com/danielrhammond">Daniel Hammond</a> and <a href="https://twitter.com/wkiefer">Will Kiefer</a> for their timely iOS help.
 </footer>
