@@ -1,3 +1,6 @@
 name: Is It Snappy?
+description: Measure input-to-output latency with your iPhone
+author: Chad Austin
 title: Is It Snappy?
 theme: jekyll-theme-cayman
+markdown: kramdown

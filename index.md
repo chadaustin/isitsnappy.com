@@ -31,4 +31,10 @@ Is It Snappy? will display the number of frames and milliseconds between the two
 
 Quantifying response latency ends arguments! :)
 
+<div class="download-badge">
+<img alt="Download on the App Store" src="/img/Download_on_the_App_Store_Badge_US-UK_135x40.svg" />
+</div>
+
+---
+
 After writing this app, I walked around my house and measured everything I could think of.  Here are some interesting results:
