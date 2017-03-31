@@ -16,15 +16,23 @@ All iPhones since the iPhone 6 and the 9.7-inch iPad Pro have a rear-facing came
 
 Is It Snappy? is an iOS app that makes it convenient to quantify latency with this hardware.
 
-Simply record a video of the input and output.
+<div class="video-block">
+<span class="caption">Simply record a video of the input and output.</span>
 
+<div class="video-container">
 <video controls="true" width="320" height="568" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/capture.mp4">
 </video>
+</div>
+</div>
 
-Then precisely mark the frame when the events occurred.
+<div class="video-block">
+<span class="caption">Then precisely mark the frame when the events occurred.</span>
 
+<div class="video-container">
 <video controls="true" width="320" height="568" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/mark.mp4">
 </video>
+</div>
+</div>
 
 Is It Snappy? will display the number of frames and milliseconds between the two events.
 

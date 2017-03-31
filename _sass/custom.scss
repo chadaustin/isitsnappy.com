@@ -1,0 +1,22 @@
+.download-badge {
+    text-align: center;
+
+    img {
+        height: 60px;
+    }
+}
+
+.video-block {
+    display: inline-block;
+    width: 400px;
+
+    .caption {
+        text-align: center;
+        font-style: italic;
+    }
+
+    .video-container {
+        text-align: center;
+        margin: 1em auto 0 auto;
+    }
+}
