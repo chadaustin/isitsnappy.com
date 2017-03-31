@@ -6,11 +6,17 @@
     }
 }
 
+.video-group {
+    text-align: center;
+}
+
 .video-block {
     display: inline-block;
+    text-align: center;
+    margin: 1em 1em;
 
     @include large {
-        width: 400px;
+        width: 320px;
         video {
             width: 320px;
             height: 568px;
@@ -18,7 +24,7 @@
     }
 
     @include medium {
-        width: 300px;
+        width: 240px;
         video {
             width: 240px;
             height: 426px;
@@ -26,7 +32,7 @@
     }
 
     @include small {
-        width: 300px;
+        width: 240px;
         video {
             width: 240px;
             height: 426px;
@@ -37,10 +43,5 @@
     .caption {
         text-align: center;
         font-style: italic;
-    }
-
-    .video-container {
-        text-align: center;
-        margin: 1em auto 0 auto;
     }
 }
