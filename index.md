@@ -20,7 +20,7 @@ Is It Snappy? is an iOS app that makes it convenient to quantify latency with th
 <span class="caption">Simply record a video of the input and output.</span>
 
 <div class="video-container">
-<video controls="true" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/capture.mp4">
+<video controls="true" preload="auto" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/capture.mp4">
 </video>
 </div>
 </div>
@@ -29,7 +29,7 @@ Is It Snappy? is an iOS app that makes it convenient to quantify latency with th
 <span class="caption">Then precisely mark the frame when the events occurred.</span>
 
 <div class="video-container">
-<video controls="true" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/mark.mp4">
+<video controls="true" preload="auto" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/mark.mp4">
 </video>
 </div>
 </div>
