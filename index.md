@@ -34,7 +34,7 @@ Is It Snappy? is an iOS app that makes it convenient to quantify latency with th
 </div>
 </div>
 
-Is It Snappy? will display the number of frames and milliseconds between the two events.
+Is It Snappy? will display the time in milliseconds between the two marked frames.  Now install the app, measure your devices, and share the results!
 
 <div class="download-badge">
 <a href="https://itunes.apple.com/us/app/is-it-snappy/id1219667593?ls=1&amp;mt=8">
@@ -51,8 +51,8 @@ aoeu
 aoue
 
 aoeu
-
+aoeu
 aoeu
 
 aoue
-
+aoue
