@@ -18,11 +18,13 @@ Is It Snappy? is an iOS app that makes it convenient to quantify latency with th
 
 Simply record a video of the input and output.
 
-<video controls="true" width="568" height="320" preload="auto" src="/movie/capture.mp4" />
+<video controls="true" width="568" height="320" preload="auto" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/capture.mp4">
+</video>
 
 Then precisely mark the frame when the events occurred.
 
-<video controls="true" width="568" height="320" preload="auto" src="/movie/record.mp4" />
+<video controls="true" width="568" height="320" preload="auto" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/mark.mp4">
+</video>
 
 Is It Snappy? will display the number of frames and milliseconds between the two events.
 
