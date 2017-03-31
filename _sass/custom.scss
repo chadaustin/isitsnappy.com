@@ -8,7 +8,31 @@
 
 .video-block {
     display: inline-block;
-    width: 400px;
+
+    @include large {
+        width: 400px;
+        video {
+            width: 320px;
+            height: 568px;
+        }
+    }
+
+    @include medium {
+        width: 300px;
+        video {
+            width: 240px;
+            height: 426px;
+        }
+    }
+
+    @include small {
+        width: 300px;
+        video {
+            width: 240px;
+            height: 426px;
+        }
+    }
+
 
     .caption {
         text-align: center;
