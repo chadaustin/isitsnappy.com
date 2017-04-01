@@ -13,12 +13,13 @@
 .video-block {
     display: inline-block;
     text-align: center;
-    margin: 1em 1em;
+    margin: 1em 1em 2em 1em;
 
     @include large {
         width: 320px;
         video {
-            width: 320px;
+            width: 285px; // trick to push the controls outside the video
+            //width: 320px;
             height: 568px;
         }
     }
@@ -26,7 +27,7 @@
     @include medium {
         width: 240px;
         video {
-            width: 240px;
+            width: 205px; // trick to push the controls outside the video
             height: 426px;
         }
     }
@@ -34,7 +35,7 @@
     @include small {
         width: 240px;
         video {
-            width: 240px;
+            width: 205px; // trick to push the controls outside the video
             height: 426px;
         }
     }
@@ -44,4 +45,10 @@
         text-align: center;
         font-style: italic;
     }
+
+/*
+    video::-webkit-media-controls-panel {
+        bottom: -32px;
+    }
+*/
 }
