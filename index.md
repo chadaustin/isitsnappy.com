@@ -1,3 +1,7 @@
+---
+title: Is It Snappy?
+---
+
 # What is response latency?
 
 Has a game, application, or device ever felt sluggish or laggy to you?  Have you ever argued with someone over which text editor was faster?
