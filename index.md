@@ -56,7 +56,7 @@ After releasing *Is It Snappy?*, I walked around my house and measured everythin
 
 ## NES on CRT
 
-Check out the latency on an original NES and CRT television:
+Check out the latency on an original NES and CRT television (Warning: quite a lot of flicker):
 
 <div class="video-group">
 <div class="video-block">
