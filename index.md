@@ -68,9 +68,9 @@ Check out the latency on an original NES and CRT television:
 </div>
 </div>
 
-Note that you can see the electron beam scanning down the display.  (I assume it looks diagonal due to how the iPhone camera scans.)  The input is recorded on one frame.  The NES spends the next frame processing.  The next time the beam scans down the screen, Mario is drawn in a new position.  The gold standard!  Also, technically this means response latency is higher if Mario is at the bottom of the screen rather than near the top.  :)
+Note that you can see the electron beam scanning down the display.  (I assume it looks diagonal due to how the iPhone camera scans.)  The input is recorded on one frame.  The NES spends the next frame processing.  The next time the beam scans down the screen, Mario is in a new position.  The gold standard!  Also, technically this means response latency is higher if Mario is at the bottom of the screen rather than near the top.  :)
 
-If you compare with the NES Classic on an LCD display demo above, you can see the pixels fade in.  If the LCD's pixel response time is in the 10ms range, it shows up clearly in a 240 Hz video.
+On an LCD, as demonstrated with the NES Classic above, you can see the pixels fade in.  If the LCD's pixel response time is in the typical 10ms range, the effect shows up clearly in a 240 Hz video.
 
 ## Fluorescent Flicker
 
@@ -78,7 +78,7 @@ On a related note, I tested *Is It Snappy?* on the train I take to work, and I c
 
 ## Television Latency
 
-My primary television is a Samsung LN46C650.  I've always been happy with it, but I recently played through some old games and found them to be trickier than I remembered.  Something never felt quite right.  Well, the NES Classic (which already has some [emulation latency](https://byuu.org/articles/latency/)), on my TV, measures at ~170 ms!  On a Dell LCD monitor, it measures at 87 ms.  That means my TV adds something like 80 ms, which is consistent with my other measurements and general feeling that games were never responsive.  80 ms is not that bad by itself, but when you add other sources of latency, it quickly becomes unpleasant.  Guess I'm [in the market for a new one](http://www.rtings.com/tv/tests/inputs/input-lag).  :(
+My primary television is a Samsung LN46C650.  I've always been happy with it, but I recently played through some old games and found them to be trickier than I remembered.  Something never felt quite right.  Well, the NES Classic (which already has some [emulation latency](https://byuu.org/articles/latency/)), on my TV, measures at ~170 ms!  On a Dell LCD monitor, the same game measures at 87 ms.  That means my TV adds ~80 ms, which is consistent with my other measurements and general feeling that games were never responsive.  80 ms is not that bad by itself, but when you add other sources of latency, it quickly becomes unpleasant.  Guess I'm [in the market for a new one](http://www.rtings.com/tv/tests/inputs/input-lag).  :(
 
 I used to play semi-competitive Quake 3, and my typical ping time was in the 50 ms range.  It's absurd that my TV adds more latency than the time it takes for network packets to travel halfway across the country!
 
@@ -95,3 +95,16 @@ On my Dell XPS 13 running Windows 10, I measured:
 | Notepad | 70.8 ms |
 | VS Code | 116.7 ms |
 | Atom | 104.2 ms |
+| Atom (Haskell) | 129.2 ms |
+
+On the same machine, running Ubuntu, I measured:
+
+| Editor | Latency |
+| -- | -- |
+| TextEdit | 62.5 ms |
+| VS Code | 95.8 ms |
+| Atom | 62.5 ms |
+
+Ubuntu latency is better than Windows 10 on this hardware?!  Way to go!
+
+It's interesting that Atom and VS Code really aren't that bad when editing plain text and measuring a single keypress.  It is interesting that Atom's latency gets worse by two frames when Haskell syntax highlighting is enabled.  More testing in realistic situations is warranted here.
