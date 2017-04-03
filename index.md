@@ -42,15 +42,15 @@ Now measure your apps and devices and share the results!
 </a>
 </div>
 
-## Gotchas
+# Gotchas
 
-It's a bit surprising how noisy the data is.  I could understand 10 ms swings - sometimes it's really hard to tell which 4.2 ms frame contains the button press, even if you press really quickly.  But sometimes I'd record 20+ ms swings.  I wonder why that is - input polling lining up just on either side of a frame?
+It's a bit surprising how noisy the data is.  I could understand 10 ms swings - sometimes it's really hard to tell which 4.2 ms frame contains the button press, even if you strike the button quickly.  But sometimes I'd see 30+ ms swings between captures.  I wonder why that is - input polling lining up just on either side of a frame?  A 60 Hz frame is 16.6 ms after all.  The lesson is to take several captures.
 
-## Wishlist
+# Wishlist
 
 It would be pretty cool if the app showed microphone power alongside the video frames so you could quantify latency from input to sound too.
 
----
+# Experience Reports
 
 After releasing *Is It Snappy?*, I walked around my house and measured everything I could think of.  Here are some interesting results.
 
