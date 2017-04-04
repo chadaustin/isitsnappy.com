@@ -28,7 +28,7 @@ This video demonstrates recording the latency of the NES Classic on a Dell 2007F
 <div class="video-block">
 <div class="video-container">
 <span class="caption"></span>
-<video controls="true" preload="none" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/nes_classic_demo.mp4">
+<video controls="true" preload="none" poster="https://s3-us-west-2.amazonaws.com/isitsnappy/posters/nes_classic_demo.jpg" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/nes_classic_demo.mp4">
 </video>
 </div>
 </div>
@@ -62,7 +62,7 @@ Check out the latency on an original NES and CRT television (Warning: quite a lo
 <div class="video-block">
 <div class="video-container">
 <span class="caption"></span>
-<video controls="true" preload="none" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/nes_crt_demo.mp4">
+<video controls="true" preload="none" poster="https://s3-us-west-2.amazonaws.com/isitsnappy/posters/nes_crt_demo.jpg" src="https://s3-us-west-2.amazonaws.com/isitsnappy/movies/nes_crt_demo.mp4">
 </video>
 </div>
 </div>
