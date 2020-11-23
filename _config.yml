@@ -5,3 +5,4 @@ title: Is It Snappy?
 theme: jekyll-theme-cayman
 markdown: kramdown
 google_analytics: UA-96650815-1
+include: ['_pages']
